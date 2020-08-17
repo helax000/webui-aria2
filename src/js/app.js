@@ -131,7 +131,8 @@ webui.config([
       .translations("id_ID", mergeTranslation(translations.id_ID, translations.en_US))
       .translations("pt_BR", mergeTranslation(translations.pt_BR, translations.en_US))
       .useSanitizeValueStrategy("escapeParameters")
-      .determinePreferredLanguage();
+      .determinePreferredLanguage()
+      .fallbackLanguage("zh_CN");
 
     $locationProvider.html5Mode({
       enabled: true,
