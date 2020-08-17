@@ -1,5 +1,5 @@
-<p align="center" style="color: #1E90FF">
-为了更直观展示，本仓库将GUI界面的默认语言设置为中文。
+<p align="center">
+<font color="#1E90FF"> 为了更直观展示，本仓库将GUI界面的默认语言设置为中文。</font>
 </p>
 
 ---
