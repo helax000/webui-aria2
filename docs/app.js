@@ -2976,7 +2976,8 @@
               .translations("id_ID", M(translations.id_ID, translations.en_US))
               .translations("pt_BR", M(translations.pt_BR, translations.en_US))
               .useSanitizeValueStrategy("escapeParameters")
-              .determinePreferredLanguage(),
+              .determinePreferredLanguage()
+              .fallbackLanguage("zh_CN"),
               t.html5Mode({ enabled: !0, requireBase: !1 });
           }
         ]),
