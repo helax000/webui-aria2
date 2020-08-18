@@ -3,4 +3,5 @@
 .git
 debug.log
 stats.json
+package-lock.json
 node_modules
